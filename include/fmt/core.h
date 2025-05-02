@@ -14,12 +14,12 @@
 #include <iterator>
 #include <memory>
 #include <string>
-#include <type_traits>
-#include <vector>
-
 #if __cplusplus < 202002L
+// If using C++14 or C++17, define char8_t
 using char8_t = unsigned char;
 #endif
+#include <type_traits>
+#include <vector>
 
 namespace std {
 template <>
