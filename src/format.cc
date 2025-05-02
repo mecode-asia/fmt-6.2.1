@@ -4,7 +4,9 @@
 // All rights reserved.
 //
 // For the license information refer to format.h.
-
+#include <locale>
+#include <ios>
+#include <streambuf>
 #include "fmt/format-inl.h"
 
 FMT_BEGIN_NAMESPACE
